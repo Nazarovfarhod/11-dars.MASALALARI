@@ -101,21 +101,16 @@
 
 // 9-masala
 
-// let stringNumber = "123045000";
-// let counter = 0;
+// let numbers = "12345000";
 
-// let answer = stringNumber.split("").map((number) => Number(number));
-
-// for (let i = answer.length - 1; i > 0; i--) {
-//   if (answer[i] != 0) {
-//     break;
+// function deletZero(numbers) {
+//   while (numbers.endsWith("0")) {
+//     numbers = numbers.slice(0, -1);
 //   }
-//   counter++;
+//   return numbers;
 // }
 
-// answer.pop(counter);
-
-// console.log(answer);
+// console.log(deletZero(numbers));
 
 // 10-masala
 
